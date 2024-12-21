@@ -9,8 +9,8 @@ const Hero = () => {
       <h2 className="uppercase py-4 font-bold tracking-[1px]">
         Recent Activity
       </h2>
-      <div className="grid grid-cols-4 h-[230px] gap-10">
-        <div className="col-span-2 rounded-2xl relative overflow-hidden flex items-end p-5">
+      <div className="grid lg:grid-cols-4  gap-10">
+        <div className="lg:col-span-2 col-span-4 rounded-2xl relative overflow-hidden flex items-end p-5 h-[230px]">
           <div className="absolute w-full h-full top-0 right-0 overflow-hidden z-[-1]">
             <img src={img1} alt="" className="w-full h-full blur-sm" />
           </div>
@@ -30,7 +30,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full overflow-hidden relative rounded-2xl p-5">
+        <div className="w-full h-[230px] overflow-hidden relative rounded-2xl p-5 col-span-4 md:col-span-2 lg:col-span-1">
           <div className="absolute z-[-1] top-0 right-0 w-full h-full">
             <img
               src={img2}
@@ -55,7 +55,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="w-full h-full overflow-hidden relative rounded-2xl p-5">
+        <div className="w-full h-[230px] col-span-4 md:col-span-2 lg:col-span-1 overflow-hidden relative rounded-2xl p-5">
           <div className="absolute z-[-1] top-0 right-0 w-full h-full">
             <img
               src={img3}

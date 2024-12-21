@@ -9,7 +9,7 @@ const NavBar = () => {
         <p>LearnFormula</p>
       </div>
       <div className="flex gap-4">
-        <ul className="flex gap-4 justify-center items-center">
+        <ul className="lg:flex gap-4 justify-center items-center hidden">
           <li className="capitalize">Dashboard</li>
           <li className="capitalize">my course</li>
           <li className="capitalize">calender</li>

@@ -7,11 +7,11 @@ const ContentHero = () => {
   return (
     <div className="my-10">
       <ContentNav />
-      <div className="gap-10 grid grid-cols-4 w-full h-[230px] pt-4">
+      <div className="gap-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full h-[700px] md:h-[600px] lg:h-[230px] pt-4">
         {Users.map((user) => {
           return (
-            <div className="col-span-1" key={user.id}>
-              <div className="w-full h-[60%] rounded-2xl relative overflow-hidden flex items-end">
+            <div className="col-span-1 h-[300px] md:h-full" key={user.id}>
+              <div className="w-full h-[80%] rounded-2xl relative overflow-hidden flex items-end">
                 <div className="absolute right-0 top-0  z-[-1]">
                   <img
                     src={user.img}
